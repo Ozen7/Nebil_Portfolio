@@ -1,22 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-
+import HelloScreen from './mods/HelloScreen';
 function App() {
+
+
+// Create a <Title> react component that renders an <h1> which is
+// centered, palevioletred and sized at 1.5em
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <HelloScreen/>
       </header>
     </div>
   );

@@ -1,0 +1,11 @@
+.button {
+    background-color: rgba(150, 43, 43, 0.679); /* Green */
+    border: 5px;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 20px;
+    color: white;
+    border-radius: 10px;
+  }
