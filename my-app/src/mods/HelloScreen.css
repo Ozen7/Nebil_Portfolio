@@ -1,5 +1,5 @@
 .button {
-    background-color: rgba(150, 43, 43, 0.679); /* Green */
+    background-color: rgba(150, 43, 43, 0.679);
     border: 5px;
     font-size: 20px;
     padding: 10px;
@@ -8,4 +8,62 @@
     margin: 20px;
     color: white;
     border-radius: 10px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .text {
+    z-index: 1;
+    position: relative;
+  }
+
+  .background {
+    position: relative;
+  }
+
+  .text_div {
+    background-color: #282c34;
+    flex: 0.1;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  .text-enter {
+    opacity: 0;
+  }
+  .text-enter-active {
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+  .text-exit {
+    opacity: 1;
+  }
+  .text-exit-active {
+    opacity: 0;
+    transition: opacity 400ms;
+  }
+
+  .button-enter {
+    opacity: 0;
+  }
+  .button-enter-active {
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+  .button-exit {
+    opacity: 1;
+  }
+  .button-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
   }
