@@ -1,5 +1,19 @@
 .button {
-  background-color: rgba(150, 43, 43, 0.679);
+  background-color: rgba(150, 43, 43, 0.678);
+  border: 5px;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 20px;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.button:hover {
+  background-color: #6a1f1fad;
   border: 5px;
   font-size: 20px;
   padding: 10px;
@@ -17,7 +31,7 @@
   position: relative;
 }
 
-.text_div {
+.background {
   background-color: #282c34;
   flex: 0.1;
   display: flex;
