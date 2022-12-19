@@ -1,23 +1,29 @@
 import React from "react";
 import "./HelloScreen.css";
 import { CSSTransition } from "react-transition-group";
+import { useNavigate } from "react-router-dom";
+
 
 function HelloScreen(props) {
   const [timeCounter, setTimeCounter] = React.useState(0);
   const [buttonIn, setButtonIn] = React.useState(true);
+  const navigate = useNavigate();
+  
 
   setTimeout(function () {
     setTimeCounter((prevState) => {
+      console.log("hi");
       return prevState + 1;
     });
   }, 500);
 
   const continueButtonHandler = () => {
     setButtonIn(false);
+    navigate('/homepage');
   };
 
   return (
-    <div className="text_div">
+    <div className="background">
       <CSSTransition
         in={
           ((3 < timeCounter && 18 > timeCounter) || 21 < timeCounter) &&
