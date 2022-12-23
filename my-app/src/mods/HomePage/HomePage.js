@@ -6,7 +6,10 @@ function HomePage (props) {
     return (
         <>
             <NavBar/>
-            <div className="background"></div>
+            <div className="background">
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <p id = "test">hello</p>
+            </div>
         </>
     )
 }
