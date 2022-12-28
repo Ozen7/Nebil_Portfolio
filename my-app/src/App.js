@@ -1,5 +1,5 @@
 import './App.css';
-import HelloScreen from './mods/HelloScreen';
+import HelloScreen from './mods/HelloScreen/HelloScreen';
 import {Routes, Route, BrowserRouter} from "react-router-dom";
 import HomePage from './mods/HomePage/HomePage';
 function App() {
