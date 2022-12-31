@@ -1,9 +1,16 @@
 import React from "react";
 import "../HomePage.css";
 
-function Main(props) {
+function AboutMe(props) {
   return (
     <>
+      <div className="headerDiv">
+        <h2>
+          About Me
+        </h2>
+
+
+      </div>
       <div className="contentsDiv" style={{height: "50vh"}}>
       <p>
       
@@ -13,4 +20,4 @@ function Main(props) {
   );
 }
 
-export default Main;
+export default AboutMe;
