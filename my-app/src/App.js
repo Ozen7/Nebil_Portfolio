@@ -11,8 +11,8 @@ function App() {
     <BrowserRouter>
       <div>
           <Routes>
-            <Route path = "/" element = {<HelloScreen/>}/>
-            <Route path = "/homepage" element = {<HomePage/>}/>
+            <Route path = "/HelloScreen" element = {<HelloScreen/>}/>
+            <Route path = "/" element = {<HomePage/>}/>
           </Routes>
       </div>
     </BrowserRouter>
