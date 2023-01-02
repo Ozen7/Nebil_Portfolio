@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 function HelloScreen(props) {
   const [timeCounter, setTimeCounter] = React.useState(0);
   const [buttonIn, setButtonIn] = React.useState(true);
-  const [basic,setBasic] = React.useState(false);
+  const [basic, setBasic] = React.useState(false);
   const navigate = useNavigate();
 
   if (!basic) {
@@ -22,60 +22,39 @@ function HelloScreen(props) {
     setButtonIn(false);
     setBasic(true);
   };
-  if (buttonIn || timeCounter < 12) {
-    return (
-      <div
-        className="background"
-        style={{ height: "100vh", backgroundColor: "#222831" }}
+  return (
+    <div
+      className="background"
+      style={{ height: "100vh", backgroundColor: "#222831" }}
+    >
+      <CSSTransition
+        in={(6 > timeCounter || 10 < timeCounter) && buttonIn}
+        timeout={500}
+        classNames="text"
+        unmountOnExit
       >
-        <CSSTransition
-          in={(6 > timeCounter || 10 < timeCounter) && buttonIn}
-          timeout={500}
-          classNames="text"
-          unmountOnExit
-        >
-          <p className="text">
-            {" "}
-            {timeCounter < 10
-              ? "Hello, My name is Nebil Ozer"
-              : "Welcome to my humble abode!"}
-          </p>
-        </CSSTransition>
+        <p className="text">
+          {" "}
+          {timeCounter < 10
+            ? "Hello, My name is Nebil Ozer"
+            : "Welcome to my humble abode!"}
+        </p>
+      </CSSTransition>
 
-        <CSSTransition
-          in={timeCounter > 10 && buttonIn}
-          timeout={500}
-          classNames="button"
-          unmountOnExit
-        >
-          <a href="#aboutme">
-            <button className="button" onClick={continueButtonHandler}>
-              continue
-            </button>
-          </a>
-        </CSSTransition>
-      </div>
-    );
-  } else {
-    return (
-      <div
-        className="background"
-        style={{ height: "50vh", backgroundColor: "#222831" }}
+      <CSSTransition
+        in={timeCounter > 10 && buttonIn}
+        timeout={500}
+        classNames="button"
+        unmountOnExit
       >
-        <CSSTransition
-          in={basic}
-          timeout={500}
-          classNames="basic"
-          unmountOnExit
-        >
-          <p className="basic">
-            Nebil Ozer
-          </p>
-        </CSSTransition>
-        
-      </div>
-    );
-  }
+        <a href="#aboutme">
+          <button className="button" onClick={continueButtonHandler}>
+            continue
+          </button>
+        </a>
+      </CSSTransition>
+    </div>
+  );
 }
 
 export default HelloScreen;

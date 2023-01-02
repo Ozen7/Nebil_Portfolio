@@ -1,24 +1,40 @@
 .background {
-    background-color: #393E46;
-    color: #EEEEEE;
+  background-color: #393e46;
+  color: #eeeeee;
 }
 
 .headerDiv {
-    background-color: #393E46;
-    color: #00ADB5;
-    display: flex;
-    flex:0.1;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border-top: 1px solid #EEEEEE;
-    border-bottom: 1px solid #EEEEEE;
-    font-size: 40px;
+  background-color: #393e46;
+  color: #eeeeee;
+  display: flex;
+  flex: 0.1;
+  justify-content: center;
+  padding: 20px;
+  font-size: 40px;
 }
 
 .contentsDiv {
-    background-color: #222831;
-    color: #EEEEEE;
-    display: flex;
+  background-color: #222831;
+  color: #eeeeee;
+  display: flex;
+}
+
+.text {
+  z-index: 1;
+  position: relative;
+}
+
+.text-enter {
+  opacity: 0;
+}
+.text-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+.text-exit {
+  opacity: 1;
+}
+.text-exit-active {
+  opacity: 0;
+  transition: opacity 400ms;
 }

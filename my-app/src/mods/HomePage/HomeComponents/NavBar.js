@@ -9,11 +9,14 @@ function NavBar(props) {
         style={{
           backgroundColor: "#222831",
           borderBottom: "1px solid #EEEEEE",
-          borderTop: "1px solid #EEEEEE",
         }}
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#" style={{ color: "#00ADB5", fontSize:"25px", top:0}}>
+          <a
+            class="navbar-brand"
+            href="#"
+            style={{ color: "#00ADB5", fontSize: "25px", top: 0 }}
+          >
             Nebil Ozer
           </a>
           <button
@@ -30,7 +33,7 @@ function NavBar(props) {
               fill="currentColor"
               class="bi bi-list"
               viewBox="0 0 16 16"
-              style={{"color":"#00ADB5"}}
+              style={{ color: "#00ADB5" }}
             >
               <path
                 fill-rule="evenodd"
@@ -46,7 +49,7 @@ function NavBar(props) {
           >
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
-               Index
+                Index
               </h5>
               <button
                 type="button"
@@ -57,16 +60,6 @@ function NavBar(props) {
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#aboutme">
-                    About Me
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#personalprojects">
-                    Personal Projects
-                  </a>
-                </li>
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
@@ -79,7 +72,7 @@ function NavBar(props) {
                   </a>
                   <ul class="dropdown-menu dropdown-menu-dark">
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="#workexperience">
                         Experience Section
                       </a>
                     </li>
@@ -102,6 +95,16 @@ function NavBar(props) {
                       </a>
                     </li>
                   </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#personalprojects">
+                    Personal Projects
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#aboutme">
+                    About Me
+                  </a>
                 </li>
               </ul>
             </div>
