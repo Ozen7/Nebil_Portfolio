@@ -4,21 +4,35 @@ import NavBar from "./HomeComponents/NavBar";
 import PersonalProjects from "./HomeComponents/PersonalProjects";
 import Main from "./HomeComponents/Main";
 import AboutMe from "./HomeComponents/AboutMe";
-import HelloScreen from "../HelloScreen/HelloScreen";
+import WorkExperience from "./HomeComponents/WorkExperience";
+import Survey from "./HomeComponents/Survey";
 
 function HomePage(props) {
   return (
     <>
-
-      <HelloScreen/>
+      <Main />
+      <div id="workexperience"/>
       <NavBar />
-      <div id="aboutme"  style={{ backgroundColor: "#222831", height: "65px" }}/>
-      <AboutMe />
+      
+      <WorkExperience />
+
       <div
         id="personalprojects"
         style={{ backgroundColor: "#222831", height: "65px" }}
       />
       <PersonalProjects />
+
+      <div
+        id="survey"
+        style={{ backgroundColor: "#222831", height: "65px" }}
+      />
+      <Survey />
+
+      <div
+        id="aboutme"
+        style={{ backgroundColor: "#222831", height: "65px" }}
+      />
+      <AboutMe />
     </>
   );
 }
