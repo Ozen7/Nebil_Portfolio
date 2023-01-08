@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import wrkexp from "../images/download (9).jfif";
 function WorkExperience(props) {
   useEffect(() => {
-    AOS.init({ once: true, offset: 80});
+    AOS.init({ once: false, offset: 80});
     AOS.refresh();
   }, []);
   return (
@@ -17,8 +17,6 @@ function WorkExperience(props) {
         className="contentsDiv"
         style={{
           flexDirection: "column",
-          display: "flex",
-          width: "100vw",
           paddingLeft: "20vw",
           paddingRight: "20vw",
           paddingTop: "10vh",
@@ -26,13 +24,12 @@ function WorkExperience(props) {
           alignItems: "center",
         }}
       >
-        <p style={{fontSize: "30px"}} data-aos="slide-up">Prior Work Experience</p>
+        <p style={{fontSize: "30px", color:"#00ADB5"}} data-aos="slide-up">Prior Work Experience</p>
         <div
           id="prior-work-exp"
           style={{
             display: "flex",
-            flexDirection: "row",
-            margin: "30px",
+            marginTop: "30px",
             gap: 40,
           }}
           data-aos="slide-up"
@@ -56,13 +53,12 @@ function WorkExperience(props) {
           </p>
         </div>
 
-        <p style={{fontSize: "30px"}} data-aos="slide-up">Experience Gained from University Schoolwork</p>
+        <p style={{fontSize: "30px",color:"#00ADB5",paddingTop:"20px"}} data-aos="slide-up">Experience Gained from University Schoolwork</p>
         <div
           id="univ-exp"
           style={{
             display: "flex",
-            flexDirection: "row",
-            margin: "30px",
+            marginTop: "30px",
             gap: 40,
           }}
           data-aos="slide-up"
@@ -85,13 +81,12 @@ function WorkExperience(props) {
           <img src={wrkexp} />
         </div>
         
-        <p style={{fontSize: "30px"}} data-aos="slide-up">Personal Journey Through Compsci</p>
+        <p style={{fontSize: "30px", color:"#00ADB5"}} data-aos="slide-up">Personal Journey Through Compsci</p>
         <div
           id="personal-journey"
           style={{
             display: "flex",
-            flexDirection: "row",
-            margin: "30px",
+            marginTop: "30px",
             gap: 40,
           }}
           data-aos="slide-up"
@@ -122,7 +117,6 @@ function WorkExperience(props) {
             Vestibulum volutpat, massa et dictum ultricies, mauris urna varius
             velit, ut euismod magna ipsum in dolor.{" "}
           </p>
-          
         </div>
       </div>
     </>
