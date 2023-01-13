@@ -1,0 +1,108 @@
+.menu {
+  display: flex;
+  background-color: #00ADB5;
+  border-radius: 10%;
+  cursor:pointer;
+  height:29vh;
+  width:29vh;
+  z-index: 1;
+}
+
+
+.menu-enter {
+  opacity: 0;
+}
+.menu-enter-active {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+.menu-exit {
+  opacity: 1;
+}
+.menu-exit-active {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 300ms;
+  transition-delay: 0;
+}
+
+.menuItem {
+  display: flex;
+  background-color: #00ADB5;
+  border-radius: 10%;
+  cursor:pointer
+}
+
+
+.menuItem-enter {
+  opacity: 0;
+}
+.menuItem-enter-active {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+.menuItem-exit {
+  opacity: 1;
+}
+.menuItem-exit-active {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 300ms;
+  transition-delay: 0;
+}
+
+.menubutton {
+  background-color: #00ADB5;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding-top: 10px;
+  font-size: 20px;
+  font-variant: small-caps;
+  cursor: pointer;
+}
+
+
+
+.menubutton-enter {
+  height: 0;
+}
+.menubutton-enter-active {
+  height: 55px;
+  transition-property: height;
+  transition-duration: 500ms;
+}
+
+.menubutton:hover {
+  background-color: #00acb5ab
+}
+
+
+.buttontext {
+  color:#eeeeee
+}
+
+
+.buttontext-enter {
+  opacity: 0;
+}
+.buttontext-enter-active {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+.buttontext-exit {
+  opacity: 1;
+}
+.buttontext-exit-active {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 300ms;
+  transition-delay: 0;
+}
+
+
+
+

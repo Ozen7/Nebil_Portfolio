@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import wrkexp from "../images/download (9).jfif";
 function WorkExperience(props) {
   useEffect(() => {
-    AOS.init({ once: false, offset: 80});
+    AOS.init({ once: true, offset: 30});
     AOS.refresh();
   }, []);
   return (
@@ -15,16 +15,18 @@ function WorkExperience(props) {
       </div>
       <div
         className="contentsDiv"
+        id="priorworkexperience"
         style={{
           flexDirection: "column",
-          paddingLeft: "20vw",
-          paddingRight: "20vw",
+          paddingLeft: "15vw",
+          paddingRight: "15vw",
           paddingTop: "10vh",
           justifyContent: "center",
           alignItems: "center",
+          
         }}
       >
-        <p style={{fontSize: "30px", color:"#00ADB5"}} data-aos="slide-up">Prior Work Experience</p>
+        <p style={{fontSize: "30px", color:"#00ADB5"}} data-aos="slide-up" >Prior Work Experience</p>
         <div
           id="prior-work-exp"
           style={{
@@ -52,6 +54,8 @@ function WorkExperience(props) {
             ultrices velit fermentum vitae.{" "}
           </p>
         </div>
+
+        <div id="univexp" style={{position:"relative", height:"65px"}}></div>
 
         <p style={{fontSize: "30px",color:"#00ADB5",paddingTop:"20px"}} data-aos="slide-up">Experience Gained from University Schoolwork</p>
         <div
@@ -81,6 +85,8 @@ function WorkExperience(props) {
           <img src={wrkexp} />
         </div>
         
+        <div id="personaljourney" style={{position:"relative", height:"65px"}}></div>
+
         <p style={{fontSize: "30px", color:"#00ADB5"}} data-aos="slide-up">Personal Journey Through Compsci</p>
         <div
           id="personal-journey"

@@ -2,89 +2,163 @@ import React, { useState, useEffect } from "react";
 import { CSSTransition } from "react-transition-group";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "./Projects.css";
+import "./ProjectsFolder/Projects.css";
+import IndividualProjects from "./ProjectsFolder/IndividualProjects";
 
 function PersonalProjects(props) {
   const [menu, setMenu] = useState(true);
+  const [alternate, setAlternate] = useState(true);
+  const [setting, setSetting] = useState("");
+  const [buttonText, setButtonText] = useState(false);
 
   useEffect(() => {
-    AOS.init({ once: false, offset: 80 });
+    AOS.init({ once: true, offset: 30 });
     AOS.refresh();
   }, []);
-
-  const onMenuClick = () => {
-    setMenu(false);
-  };
-
-  const returnMenu = () => {
-    setMenu(true);
-  };
 
   return (
     <>
       <div className="headerDiv">
         <h3>Personal Projects</h3>
       </div>
-      <button onClick={returnMenu}></button>
       <div
         style={{
           backgroundColor: "#222831",
-          height: "60vh",
-
         }}
       >
-        <CSSTransition in={menu} timeout={500} classNames="text" unmountOnExit>
+        <CSSTransition
+          in={alternate && menu}
+          timeout={1000}
+          classNames="menu"
+          onExited={() => {
+            setAlternate(false);
+          }}
+          unmountOnExit
+        >
           <div
             style={{
               display: "grid",
-              height: "60vh",
               gridTemplateColumns: "auto auto auto auto",
               gap: "40px",
-              paddingLeft: "20vw",
-              paddingRight: "20vw",
+              paddingLeft: "15vw",
+              paddingRight: "15vw",
               paddingTop: "65px",
             }}
           >
             <div
               data-aos="slide-up"
               className="menu"
-              onClick={onMenuClick}
+              onClick={() => {
+                setSetting("proj1");
+                setMenu(false);
+              }}
             ></div>
             <div
               data-aos="slide-up"
               className="menu"
-              onClick={onMenuClick}
+              onClick={() => {
+                setSetting("proj2");
+                setMenu(false);
+              }}
             ></div>
             <div
               data-aos="slide-up"
               className="menu"
-              onClick={onMenuClick}
+              onClick={() => {
+                setSetting("proj3");
+                setMenu(false);
+              }}
             ></div>
             <div
               data-aos="slide-up"
               className="menu"
-              onClick={onMenuClick}
+              onClick={() => {
+                setSetting("proj4");
+                setMenu(false);
+              }}
             ></div>
             <div
               data-aos="slide-up"
               className="menu"
-              onClick={onMenuClick}
+              onClick={() => {
+                setSetting("proj5");
+                setMenu(false);
+              }}
             ></div>
             <div
               data-aos="slide-up"
               className="menu"
-              onClick={onMenuClick}
+              onClick={() => {
+                setSetting("proj6");
+                setMenu(false);
+              }}
             ></div>
             <div
               data-aos="slide-up"
               className="menu"
-              onClick={onMenuClick}
+              onClick={() => {
+                setSetting("proj7");
+                setMenu(false);
+              }}
             ></div>
             <div
               data-aos="slide-up"
               className="menu"
-              onClick={onMenuClick}
+              onClick={() => {
+                setSetting("proj8");
+                setMenu(false);
+              }}
             ></div>
+          </div>
+        </CSSTransition>
+
+        <CSSTransition
+          in={(!alternate && !menu)}
+          timeout={1000}
+          classNames="menubutton"
+          unmountOnExit
+          onEntered={() => {
+            setButtonText(true);
+          }}
+          onExited={() => {
+            setAlternate(true);
+          }}
+        >
+          <div
+            className="menubutton"
+            onClick={() => {
+              setMenu(true);
+              setButtonText(false);
+            }}
+          >
+            <CSSTransition
+              in={buttonText}
+              timeout={1000}
+              classNames="buttontext"
+              unmountOnExit
+            >
+              <p className="buttontext">back to menu</p>
+            </CSSTransition>
+          </div>
+        </CSSTransition>
+
+        <CSSTransition
+          in={!alternate && !menu}
+          timeout={1000}
+          classNames="menu"
+          unmountOnExit
+          onExited={() => {
+            setAlternate(true);
+          }}
+        >
+          <div
+            style={{
+              color: "white",
+              display: "flex",
+              flexDirection: "column",
+            }}
+          >
+            <IndividualProjects projnum={setting} />
           </div>
         </CSSTransition>
       </div>

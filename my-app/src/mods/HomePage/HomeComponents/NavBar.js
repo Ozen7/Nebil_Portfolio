@@ -80,18 +80,18 @@ function NavBar(props) {
                       <hr class="dropdown-divider" />
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="#priorworkexperience">
                         Prior Work Experience
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
-                        My Journey Through Computer Science
+                      <a class="dropdown-item" href="#univexp">
+                        University/Schoolwork
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
-                        University/Schoolwork
+                      <a class="dropdown-item" href="#personaljourney">
+                        My Journey Through Computer Science
                       </a>
                     </li>
                   </ul>
