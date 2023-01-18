@@ -23,12 +23,6 @@ function HomePage(props) {
       <PersonalProjects />
 
       <div
-        id="survey"
-        style={{ backgroundColor: "#222831", height: "65px" }}
-      />
-      <Survey />
-
-      <div
         id="aboutme"
         style={{ backgroundColor: "#222831", height: "65px" }}
       />

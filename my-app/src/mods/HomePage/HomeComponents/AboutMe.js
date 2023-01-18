@@ -20,9 +20,9 @@ function AboutMe(props) {
             justifyContent: "center",
             flexDirection: "column",
             padding: "10vh",
+            textAlign:"center",
           }}
         >
-          <h1>short about me:</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             rhoncus et enim ac tincidunt. Integer dictum augue eu luctus
@@ -30,11 +30,7 @@ function AboutMe(props) {
             vehicula dignissim quam. Praesent lacinia sed ante vitae fringilla.
             Nunc quis quam dolor. Nulla non felis sodales, faucibus massa vitae,
             malesuada ligula. Sed aliquet porta massa, nec euismod neque viverra
-            a. Cras et euismod mi. Integer id justo vitae ligula feugiat
-            euismod. Nullam vehicula diam arcu, tincidunt tristique nibh mattis
-            non. Vivamus in magna non ex placerat semper. Sed elementum
-            condimentum laoreet. Nullam euismod ante leo, ac mollis ligula
-            congue eget. Integer id nulla eu mauris varius convallis.
+            a. Cras et euismod mi. 
           </p>
           <p>
             Quisque nec lacinia neque, eu ornare libero. Maecenas mollis
