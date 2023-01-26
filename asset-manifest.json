@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Nebil_Portfolio/static/css/main.8a32cbb1.css",
-    "main.js": "/Nebil_Portfolio/static/js/main.fba5e748.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Nebil_Portfolio/static/js/787.28cb0dcd.chunk.js",
-    "static/media/image.png": "/Nebil_Portfolio/static/media/image.21dcdde371b7680963bd.png",
-    "index.html": "/Nebil_Portfolio/index.html",
-    "static/media/download (9).jfif": "/Nebil_Portfolio/static/media/download (9).fedc61440e80b465aac5.jfif",
-    "main.8a32cbb1.css.map": "/Nebil_Portfolio/static/css/main.8a32cbb1.css.map",
-    "main.fba5e748.js.map": "/Nebil_Portfolio/static/js/main.fba5e748.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Nebil_Portfolio/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.8a32cbb1.css",
+    "main.js": "/static/js/main.a16bd8c8.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/image.png": "/static/media/image.21dcdde371b7680963bd.png",
+    "index.html": "/index.html",
+    "static/media/download (9).jfif": "/static/media/download (9).fedc61440e80b465aac5.jfif",
+    "main.8a32cbb1.css.map": "/static/css/main.8a32cbb1.css.map",
+    "main.a16bd8c8.js.map": "/static/js/main.a16bd8c8.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a32cbb1.css",
-    "static/js/main.fba5e748.js"
+    "static/js/main.a16bd8c8.js"
   ]
 }
