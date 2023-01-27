@@ -3,9 +3,11 @@ import "../HomePage.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import wrkexp from "../images/download (9).jfif";
+import sandclogo from "../images/logo2.jpg";
+import bluetooth from "../images/Bluetooth.png";
 function WorkExperience(props) {
   useEffect(() => {
-    AOS.init({ once: true, offset: 30});
+    AOS.init({ once: true, offset: 30 });
     AOS.refresh();
   }, []);
   return (
@@ -18,46 +20,82 @@ function WorkExperience(props) {
         id="priorworkexperience"
         style={{
           flexDirection: "column",
-          paddingLeft: "15vw",
-          paddingRight: "15vw",
+          paddingLeft: "10vw",
+          paddingRight: "10vw",
           paddingTop: "10vh",
           justifyContent: "center",
           alignItems: "center",
-          
         }}
       >
-        <p style={{fontSize: "30px", color:"#00ADB5"}} data-aos="slide-up" >Prior Work Experience</p>
+        <p style={{ fontSize: "30px", color: "#00ADB5" }} data-aos="slide-up">
+          Prior Work Experience
+        </p>
         <div
           id="prior-work-exp"
           style={{
             display: "flex",
             marginTop: "30px",
-            gap: 40,
+            justifyContent: "space-between",
+            padding: "10px",
           }}
           data-aos="slide-up"
         >
-          <img src={wrkexp} />
-          <div></div>
+          <div style={{ paddingRight: "3vw" }}>
+            <img
+              src={bluetooth}
+              alt={"Bluetooth Logo"}
+              style={{ width: "10vw", height: "15vw" }}
+            />
+          </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris
-            ex, cursus vel ornare ut, commodo sed velit. Fusce varius
-            sollicitudin pretium. Sed dapibus neque molestie, cursus lectus ut,
-            faucibus turpis. Curabitur quis massa ullamcorper, fringilla ex
-            eget, malesuada eros. Donec ac consequat purus, id aliquam turpis.
-            Suspendisse vulputate sem non ultrices fermentum. Nulla ac massa non
-            nisi pulvinar tincidunt vel eget lectus. Sed at ligula felis.
-            Curabitur sit amet ante facilisis massa finibus interdum. Duis erat
-            nulla, ultricies semper ex quis, aliquet rutrum orci. Proin eleifend
-            massa ut metus vulputate condimentum non semper odio. Vivamus
-            iaculis vel quam in ultrices. Duis ullamcorper ultricies orci vitae
-            vehicula. Aliquam id libero ex. Phasellus ultricies purus mi, quis
-            ultrices velit fermentum vitae.{" "}
+            &emsp; During my software engineering internship at S&C Electric
+            Company in the summer of 2022, I had the opportunity to work on a
+            team of interns to create a basic app using React Native. The app
+            would be able to detect and populate information from a bluetooth
+            beacon broadcasting BLE Extended Advertisement signals. My primary
+            responsibility was to handle the backend Bluetooth technologies for
+            the app, which involved researching and understanding the ins and
+            outs of Bluetooth connectivity to work through any issues I came
+            across. I also worked on developing transfer protocols and
+            reprogramming the BLE simulator we were using to test the app. This
+            was a challenging task, as it required me to troubleshoot and solve
+            various technical issues along the way.
+            <br></br>
+            <br></br>
+            &emsp; Near the end of the internship, I was also tasked with
+            writing comprehensive tests for a REST API. This was a valuable
+            learning experience as it allowed me to explore different
+            authentication protocols and sequences. It was also a great
+            opportunity to apply my knowledge of backend development in a
+            real-world setting. The internship culminated with a comprehensive
+            presentation where all the interns came together to show off their
+            work to the senior management of the company. We presented important
+            research and findings about the technologies we implemented and
+            discussed the challenges we faced during the development process.
+            Overall, this internship was an incredibly valuable learning
+            experience that allowed me to apply my knowledge, develop new skills
+            and gain practical experience in the field of software engineering.
           </p>
+          <div style={{ }}>
+            <img
+              src={sandclogo}
+              alt={"S&C Logo"}
+              style={{ width: "15vw", height: "15vw", marginTop: "35vh", marginLeft:"5vh"}}
+            />
+          </div>
         </div>
 
-        <div id="univexp" style={{position:"relative", height:"65px"}}></div>
+        <div
+          id="univexp"
+          style={{ position: "relative", height: "65px" }}
+        ></div>
 
-        <p style={{fontSize: "30px",color:"#00ADB5",paddingTop:"20px"}} data-aos="slide-up">Experience Gained from University Schoolwork</p>
+        <p
+          style={{ fontSize: "30px", color: "#00ADB5", paddingTop: "20px" }}
+          data-aos="slide-up"
+        >
+          Experience Gained from University Schoolwork
+        </p>
         <div
           id="univ-exp"
           style={{
@@ -67,7 +105,6 @@ function WorkExperience(props) {
           }}
           data-aos="slide-up"
         >
-
           <p data-aos="slide-up">
             Nunc sagittis nulla nisi, vitae fringilla nibh rhoncus quis. Aliquam
             purus risus, feugiat vel bibendum vestibulum, faucibus in dolor.
@@ -84,10 +121,15 @@ function WorkExperience(props) {
           </p>
           <img src={wrkexp} />
         </div>
-        
-        <div id="personaljourney" style={{position:"relative", height:"65px"}}></div>
 
-        <p style={{fontSize: "30px", color:"#00ADB5"}} data-aos="slide-up">Personal Journey Through Compsci</p>
+        <div
+          id="personaljourney"
+          style={{ position: "relative", height: "65px" }}
+        ></div>
+
+        <p style={{ fontSize: "30px", color: "#00ADB5" }} data-aos="slide-up">
+          Personal Journey Through Compsci
+        </p>
         <div
           id="personal-journey"
           style={{
