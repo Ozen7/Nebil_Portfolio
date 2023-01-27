@@ -5,6 +5,8 @@ import "aos/dist/aos.css";
 import wrkexp from "../images/download (9).jfif";
 import sandclogo from "../images/logo2.jpg";
 import bluetooth from "../images/Bluetooth.png";
+import mlogo from "../images/M_logo.png";
+import clogo from "../images/C_Logo.png";
 function WorkExperience(props) {
   useEffect(() => {
     AOS.init({ once: true, offset: 30 });
@@ -76,11 +78,16 @@ function WorkExperience(props) {
             experience that allowed me to apply my knowledge, develop new skills
             and gain practical experience in the field of software engineering.
           </p>
-          <div style={{ }}>
+          <div style={{}}>
             <img
               src={sandclogo}
               alt={"S&C Logo"}
-              style={{ width: "15vw", height: "15vw", marginTop: "35vh", marginLeft:"5vh"}}
+              style={{
+                width: "15vw",
+                height: "15vw",
+                marginTop: "25vh",
+                marginLeft: "5vh",
+              }}
             />
           </div>
         </div>
@@ -105,21 +112,42 @@ function WorkExperience(props) {
           }}
           data-aos="slide-up"
         >
+          <img
+            src={mlogo}
+            alt={"UMD Shell"}
+            style={{ width: "13vw", height: "13vw", marginTop:"20vh"}}
+          />
           <p data-aos="slide-up">
-            Nunc sagittis nulla nisi, vitae fringilla nibh rhoncus quis. Aliquam
-            purus risus, feugiat vel bibendum vestibulum, faucibus in dolor.
-            Vestibulum vitae metus nec magna suscipit fringilla. Integer
-            tristique tristique neque vitae dignissim. Curabitur convallis
-            laoreet ipsum sit amet consequat. Pellentesque et convallis ante.
-            Cras ut sem consectetur nisi ullamcorper pulvinar. Pellentesque
-            accumsan, dui vitae convallis malesuada, nulla magna condimentum
-            massa, vitae viverra nibh massa quis turpis. Aenean id eros odio.
-            Duis blandit scelerisque interdum. Vivamus enim augue, sollicitudin
-            vitae cursus sed, gravida nec ante. Nunc dictum leo dui, in varius
-            elit tempor id. Mauris facilisis nibh non vehicula porta. Fusce
-            volutpat scelerisque tempor. Ut aliquet turpis vitae maximus rutrum.
+            As a computer science student at the University of Maryland, I have
+            had the opportunity to take a diverse range of classes that have
+            greatly expanded my skillset and tools that I can leverage in both
+            research and professional settings. My coursework has included
+            hands-on projects that have allowed me to put my knowledge into
+            practice. Some notable projects include:
+            <br />
+            <br />
+            <ul>
+              <li>
+                A rudimentary file system developed using C programming language
+              </li>
+              <li> A compiler developed using Ocaml programming language</li>
+              <li> Various Organizational Systems developed using Java</li>
+            </ul>
+            I am proud of my academic performance in computer science,
+            consistently excelling in every class I have taken and quickly
+            picking up new topics and concepts. My passion for the subject has
+            only grown as I have deepened my understanding of the various topics
+            surrounding computer science. I am committed to furthering my
+            education in this field and am actively seeking research
+            opportunities to further my knowledge and skills. I am excited about
+            the opportunity to pursue a doctoral degree in computer science in
+            the future.
           </p>
-          <img src={wrkexp} />
+          <img
+            src={clogo}
+            alt={"UMD Shell"}
+            style={{ width: "15vw", height: "15vw" }}
+          />
         </div>
 
         <div
