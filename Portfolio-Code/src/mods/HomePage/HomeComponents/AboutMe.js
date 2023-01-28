@@ -10,16 +10,15 @@ function AboutMe(props) {
       </div>
       <div
         className="contentsDiv"
-        style={{ height: "60vh", flexDirection: "row" }}
+        style={{ display:"flex", height: "60vh", flexDirection: "row"}}
       >
         <div
           style={{
-            width: "40vw",
+            flex: 3,
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
             flexDirection: "column",
-            padding: "10vh",
             textAlign:"center",
           }}
         >
@@ -43,7 +42,7 @@ function AboutMe(props) {
 
         <div
           style={{
-            width: "20vw",
+            flex: 2,
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -53,8 +52,6 @@ function AboutMe(props) {
             src={selfie}
             alt={"picture of me"}
             style={{
-              width: "300",
-              height: "400",
               borderRadius: "50%",
               display: "block",
             }}
@@ -65,16 +62,14 @@ function AboutMe(props) {
         <div
           style={{
             flexDirection: "column",
+            flex:"3"
           }}
         >
           <div
             style={{
-              width: "40vw",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              flexDirection: "column",
-              padding: "10vh",
               height: "30vh",
             }}
           >
@@ -82,13 +77,10 @@ function AboutMe(props) {
           </div>
           <div
           style={{
-            width: "40vw",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
             flexDirection: "column",
-            padding: "10vh",
-            height:"30vh"
           }}
         >
             <h1>References/Resume</h1>
