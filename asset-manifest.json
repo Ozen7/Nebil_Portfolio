@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Nebil_Portfolio/static/css/main.e931ec66.css",
-    "main.js": "/Nebil_Portfolio/static/js/main.cc2b5a3c.js",
+    "main.js": "/Nebil_Portfolio/static/js/main.ec27314a.js",
     "static/js/787.28cb0dcd.chunk.js": "/Nebil_Portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/personalSelfie.jpg": "/Nebil_Portfolio/static/media/personalSelfie.c7a4772fb29c0d89e17c.jpg",
     "static/media/image.png": "/Nebil_Portfolio/static/media/image.21dcdde371b7680963bd.png",
     "static/media/M_logo.png": "/Nebil_Portfolio/static/media/M_logo.e2687b6746e4f8d313ce.png",
     "static/media/C_Logo.png": "/Nebil_Portfolio/static/media/C_Logo.837a49116fe3c020f47d.png",
@@ -10,11 +11,11 @@
     "static/media/download (9).jfif": "/Nebil_Portfolio/static/media/download (9).fedc61440e80b465aac5.jfif",
     "index.html": "/Nebil_Portfolio/index.html",
     "main.e931ec66.css.map": "/Nebil_Portfolio/static/css/main.e931ec66.css.map",
-    "main.cc2b5a3c.js.map": "/Nebil_Portfolio/static/js/main.cc2b5a3c.js.map",
+    "main.ec27314a.js.map": "/Nebil_Portfolio/static/js/main.ec27314a.js.map",
     "787.28cb0dcd.chunk.js.map": "/Nebil_Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e931ec66.css",
-    "static/js/main.cc2b5a3c.js"
+    "static/js/main.ec27314a.js"
   ]
 }
