@@ -10,7 +10,7 @@ function Main(props) {
       <div
         className="contentsDiv"
         style={{
-          height: "100vh",
+          height: "101vh",
           flex: 1,
           flexDirection: "column",
           justifyContent: "center",

@@ -187,7 +187,7 @@ function WorkExperience(props) {
         >
           <div style={{ flex: 2 }} />
           <div style={{ flex: 5 }}>
-            <p>
+            <p style={{textAlign:"center"}}>
               My love for computer science began at a young age, as I explored
               and experimented with programming languages through online
               tutorials and scratch projects. Throughout my middle and high
