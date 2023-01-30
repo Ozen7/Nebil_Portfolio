@@ -50,7 +50,7 @@ function AboutMe(props) {
         >
           <img
             src={selfie}
-            alt={"picture of me"}
+            alt={"Nebil Ozer"}
             style={{
               borderRadius: "50%",
               display: "block",

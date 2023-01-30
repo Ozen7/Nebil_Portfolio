@@ -4,9 +4,7 @@ function App() {
 
 
   return (
-    <div style={{overflow:"hidden"}}>
     <HomePage/>
-    </div>
   );
 }
 
