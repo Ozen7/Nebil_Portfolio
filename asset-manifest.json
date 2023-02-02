@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Nebil_Portfolio/static/css/main.303d30a4.css",
-    "main.js": "/Nebil_Portfolio/static/js/main.e3f94129.js",
+    "main.js": "/Nebil_Portfolio/static/js/main.eb23fb9d.js",
     "static/js/787.28cb0dcd.chunk.js": "/Nebil_Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/personalSelfie.jpg": "/Nebil_Portfolio/static/media/personalSelfie.c7a4772fb29c0d89e17c.jpg",
     "static/media/image.png": "/Nebil_Portfolio/static/media/image.bfab5636bb23583909b6.png",
@@ -12,11 +12,11 @@
     "static/media/download (9).jfif": "/Nebil_Portfolio/static/media/download (9).fedc61440e80b465aac5.jfif",
     "index.html": "/Nebil_Portfolio/index.html",
     "main.303d30a4.css.map": "/Nebil_Portfolio/static/css/main.303d30a4.css.map",
-    "main.e3f94129.js.map": "/Nebil_Portfolio/static/js/main.e3f94129.js.map",
+    "main.eb23fb9d.js.map": "/Nebil_Portfolio/static/js/main.eb23fb9d.js.map",
     "787.28cb0dcd.chunk.js.map": "/Nebil_Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.303d30a4.css",
-    "static/js/main.e3f94129.js"
+    "static/js/main.eb23fb9d.js"
   ]
 }
