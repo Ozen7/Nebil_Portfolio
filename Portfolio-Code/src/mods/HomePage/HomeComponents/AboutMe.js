@@ -11,7 +11,7 @@ function AboutMe(props) {
       </div>
       <div
         className="contentsDiv"
-        style={{ display: "flex", height: "60vh", flexDirection: "row" }}
+        style={{ display: "flex", flexDirection: "row", paddingTop:"50px", paddingBottom:"50px"}}
       >
         <div
           style={{
