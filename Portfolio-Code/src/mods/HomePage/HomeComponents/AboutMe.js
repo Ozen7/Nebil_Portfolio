@@ -2,6 +2,7 @@ import React from "react";
 import "../HomePage.css";
 import selfie from "../images/image.png";
 import resume from "../Resume/Nebil_resume.pdf";
+import CV from "../Resume/Nebil_CV.pdf";
 
 function AboutMe(props) {
   return (
@@ -93,8 +94,8 @@ function AboutMe(props) {
               <a href="https://www.linkedin.com/in/nebil-ozer/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
+                  width="35"
+                  height="35"
                   fill="white"
                   class="bi bi-linkedin"
                   viewBox="0 0 16 16"
@@ -105,8 +106,8 @@ function AboutMe(props) {
               <a href="https://github.com/Ozen7">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
+                  width="35"
+                  height="35"
                   fill="white"
                   class="bi bi-github"
                   viewBox="0 0 16 16"
@@ -124,8 +125,8 @@ function AboutMe(props) {
                 <a href="mailto:nebilaozer@gmail.com">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="30"
-                    height="30"
+                    width="35"
+                    height="35"
                     fill="white"
                     class="bi bi-envelope-fill"
                     viewBox="0 3 16 11"
@@ -137,8 +138,8 @@ function AboutMe(props) {
               <a href="https://www.instagram.com/nebil_oz/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
+                  width="35"
+                  height="35"
                   fill="white"
                   class="bi bi-instagram"
                   viewBox="0 0 16 16"
@@ -156,11 +157,11 @@ function AboutMe(props) {
               flexDirection: "column",
             }}
           >
-            <h3>References/Resume</h3>
+            <h3>Resume/CV/Reference</h3>
             <div
               style={{
                 display: "grid",
-                gridTemplateColumns: "auto auto auto auto",
+                gridTemplateColumns: "auto auto auto",
                 gap: "40px",
                 paddingTop: "50px",
               }}
@@ -168,8 +169,8 @@ function AboutMe(props) {
               <a href={resume} target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
+                  width="35"
+                  height="35"
                   fill="#00ADB5"
                   class="bi bi-file-earmark-text"
                   viewBox="0 0 16 16"
@@ -177,12 +178,26 @@ function AboutMe(props) {
                   <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z" />
                   <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
                 </svg>
+
+              </a>
+              <a href={CV}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="35"
+                  fill="#00ADB5"
+                  class="bi bi-file-earmark-person"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                  <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z" />
+                </svg>
               </a>
               <a href="https://youtu.be/aRr_rO2Robg?t=1103">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
+                  width="35"
+                  height="35"
                   fill="#00ADB5"
                   class="bi bi-youtube"
                   viewBox="0 0 16 16"
@@ -190,6 +205,9 @@ function AboutMe(props) {
                   <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
                 </svg>
               </a>
+
+              <p>
+              </p>
             </div>
           </div>
         </div>
