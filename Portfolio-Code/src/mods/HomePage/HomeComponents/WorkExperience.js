@@ -27,7 +27,7 @@ function WorkExperience(props) {
           alignItems: "center",
         }}
       >
-        <p style={{ fontSize: "30px", color: "#00ADB5" }} data-aos="slide-up">
+        <p style={{ fontSize: "30px", color: "#00ADB5" , fontFamily:'Roboto Slab'}} data-aos="slide-up">
           Prior Work Experience
         </p>
         <div
@@ -89,7 +89,7 @@ function WorkExperience(props) {
         ></div>
 
         <p
-          style={{ fontSize: "30px", color: "#00ADB5", paddingTop: "20px" }}
+          style={{ fontSize: "30px", color: "#00ADB5", paddingTop: "20px", fontFamily:'Roboto Slab' }}
           data-aos="slide-up"
         >
           Experience Gained from University Schoolwork
@@ -156,7 +156,7 @@ function WorkExperience(props) {
           style={{ position: "relative", height: "65px" }}
         ></div>
 
-        <p style={{ fontSize: "30px", color: "#00ADB5" }} data-aos="slide-up">
+        <p style={{ fontSize: "30px", color: "#00ADB5" , fontFamily:'Roboto Slab'}} data-aos="slide-up">
           Personal Journey Through Compsci
         </p>
         <div
