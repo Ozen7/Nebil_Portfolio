@@ -1,11 +1,16 @@
 .menu {
   display: flex;
-  background-color: #00ADB5;
+  background-color: #393e46;
+  border: solid;
+  border-width: thick;
+  border-color: #393e46;
   border-radius: 10%;
   cursor:pointer;
   height:13vw;
   width:13vw;
   z-index: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 

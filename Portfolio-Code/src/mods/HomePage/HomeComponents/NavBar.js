@@ -15,7 +15,7 @@ function NavBar(props) {
           <a
             class="navbar-brand"
             href="#"
-            style={{ color: "#00ADB5", fontSize: "25px", top: 0 }}
+            style={{ color: "#00ADB5", fontSize: "25px", top: 0 , fontFamily:'Roboto Slab'}}
           >
             Nebil Ozer
           </a>

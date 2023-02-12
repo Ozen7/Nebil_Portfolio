@@ -4,6 +4,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./ProjectsFolder/Projects.css";
 import IndividualProjects from "./ProjectsFolder/IndividualProjects";
+import portfolio1 from "../images/portfolio1.png";
+
 
 function PersonalProjects(props) {
   const [menu, setMenu] = useState(true);
@@ -52,7 +54,9 @@ function PersonalProjects(props) {
                 setSetting("proj1");
                 setMenu(false);
               }}
-            ></div>
+            >
+              <img src={portfolio1} style={{borderRadius:"10%", width:"12.5vw"}}/>
+            </div>
             <div
               data-aos="slide-up"
               className="menu"

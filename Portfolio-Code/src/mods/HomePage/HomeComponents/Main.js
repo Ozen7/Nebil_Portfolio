@@ -35,7 +35,7 @@ function Main(props) {
               position: "relative",
             }}
           >
-            <p style={{ fontSize: "50px" }}>Hello, my name is&nbsp;</p>
+            <p style={{ fontSize: "50px", fontFamily:'Roboto Slab'}}>Hello, my name is&nbsp;</p>
               <TypeAnimation
                 sequence={[
                   1000,
@@ -63,7 +63,7 @@ function Main(props) {
             classNames="text"
             unmountOnExit
           >
-            <p className="text" style={{ fontSize: "25px" }}>
+            <p className="text" style={{ fontSize: "25px" , fontFamily:'Roboto Slab'}}>
               Pleased to meet you!
             </p>
           </CSSTransition>
