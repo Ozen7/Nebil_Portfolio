@@ -3,6 +3,9 @@ import black from "../../images/download (9).jfif";
 import react1 from "../../images/react-logo.png"
 import mnist from "../../images/mnist.png";
 import MLP from "../../images/nodeNeural.jpg";
+import java from "../../images/java.png";
+import spring from "../../images/Spring.jpg";
+
 
 function IndividualProjects(props) {
   const formattedProject = (title, paragraph1, paragraph2, img1, img2) => {
@@ -83,6 +86,7 @@ function IndividualProjects(props) {
         of the neural network, we built various visualizations and wrote a short report on how we developed the neural network 
         and how it functioned from top to bottom. 
 
+        
         In the second part of the project, we made use of PyTorch to create a Convolutional Neural Network and trained it 
         on the same dataset, comparing not only the performances of both networks, but also the training speed.
         `,
@@ -95,7 +99,24 @@ function IndividualProjects(props) {
         MLP
       );
     case "proj3":
-      return <p>proj3</p>;
+      return formattedProject(
+        "S&C Electric Co.- REST API Development",
+        `
+        During my second internship with S&C Electric, I was tasked with developing a rest API to be used as an internal tool. 
+        The API was built in Java using the Spring boot framework, allowing me to get experience developing using Spring's built
+        in suite of tools for API development. After developing the base set of API endpoints and functionalities, I began to add
+        additional features in order to allow future development to be easier and to ensure that the API was secure. These features
+        included: a basic security implementation, api health monitors, a gateway service to obfuscate endpoints, custom configuration
+        fetching, and a registration service where the different parts of the API could communicate. 
+
+        Finally, in order to finish my work, I wrapped up the project using docker and docker compose and prepared it to be deployed to the cloud using Jenkins.
+        `,
+        `Technologies used:
+        Java, Spring, Prometheus/Grafana, HTTP Basic Security, Microservice Architecture.
+        `,
+        java,
+        spring
+      );;
     case "proj4":
       return <p>proj4</p>;
     case "proj5":
