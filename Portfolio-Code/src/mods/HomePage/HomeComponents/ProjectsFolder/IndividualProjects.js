@@ -1,6 +1,8 @@
 import React from "react";
 import black from "../../images/download (9).jfif";
 import react1 from "../../images/react-logo.png"
+import mnist from "../../images/mnist.png";
+import MLP from "../../images/nodeNeural.jpg";
 
 function IndividualProjects(props) {
   const formattedProject = (title, paragraph1, paragraph2, img1, img2) => {
@@ -73,17 +75,24 @@ function IndividualProjects(props) {
       );
     case "proj2":
       return formattedProject(
-        "Project2",
-        `Fusce ut lacus gravida, mattis metus a, finibus erat. Vivamus purus est, 
-        cursus sed ultrices in, maximus eu purus. Lorem ipsum dolor sit amet, consectetur 
-        adipiscing elit. Duis in metus nec mi consectetur faucibus eget id purus. 
-        Suspendisse tincidunt quam eu erat faucibus, ac vestibulum felis dignissim. 
-        Ut in elit dapibus, cursus justo porta, sollicitudin ligula. Ut pulvinar suscipit iaculis. 
-        Etiam lacinia dapibus condimentum.
+        "CMSC 426 - Image Processing AI",
+        `
+        As part of the CMSC 426 class, we were tasked with developing a MLP neural network using only python and Numpy
+         in order to classify the "MNIST" image collection. From calculating Jacobians to running the neural network 
+        locally on our machines, the entire NN was developed by me and my partner. After calculating the effectiveness 
+        of the neural network, we built various visualizations and wrote a short report on how we developed the neural network 
+        and how it functioned from top to bottom. 
+
+        In the second part of the project, we made use of PyTorch to create a Convolutional Neural Network and trained it 
+        on the same dataset, comparing not only the performances of both networks, but also the training speed.
         `,
-        "",
-        black,
-        black
+        `Technologies used:
+        The first part of this project centered around only being able to use Python and Numpy. No machine learning or
+        neural network libraries were used in its creation to give us a deeper understanding of how Neural Networks function.
+        The second part allowed me to gain experience working with modern machine learning tools in the form of pytorch
+        `,
+        mnist,
+        MLP
       );
     case "proj3":
       return <p>proj3</p>;
