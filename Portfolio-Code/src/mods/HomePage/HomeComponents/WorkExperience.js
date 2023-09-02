@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import sandclogo from "../images/logo2.jpg";
 import bluetooth from "../images/Bluetooth.png";
 import mlogo from "../images/M_logo.png";
-import clogo from "../images/C_Logo.png";
+import compArch from "../images/CompArch.jpg";
 import selfie from "../images/personalSelfie.jpg";
 function WorkExperience(props) {
   useEffect(() => {
@@ -92,7 +92,7 @@ function WorkExperience(props) {
           style={{ fontSize: "30px", color: "#00ADB5", paddingTop: "20px", fontFamily:'Roboto Slab' }}
           data-aos="slide-up"
         >
-          Experience Gained from University Schoolwork
+          Research Interest
         </p>
         <div
           id="univ-exp"
@@ -121,31 +121,27 @@ function WorkExperience(props) {
               As a computer science student at the University of Maryland, I
               have had the opportunity to take a diverse range of classes that
               have greatly expanded my skillset and tools that I can leverage in
-              both research and professional settings. My coursework has
-              included hands-on projects that have allowed me to put my
-              knowledge into practice. Some notable projects include:
-              <br />
-              <br />
-              <ul style={{ textAlign: "left" }}>
-                <li>
-                  A rudimentary file system developed using the C programming
-                  language
-                </li>
-                <li> A compiler developed using Ocaml</li>
-                <li> Various Organizational Systems developed using Java</li>
-              </ul>
-              I am proud of my academic performance in computer science,
+              both research and professional settings. I am proud of my academic performance in computer science,
               consistently excelling in every class I have taken and quickly
-              picking up new topics and concepts. My passion for the subject has
-              only grown as I have deepened my understanding, and I am committed
-              to furthering my education in this field and am actively seeking
-              research opportunities to further my knowledge and skills.
+              picking up new topics and concepts.
+              <br/>
+              <br/>
+              Eventually, I realized that I am
+              a student at heart, and that my passion for learning was one of the driving forces in my life.
+              I intend to continue my journey of learning in graduate school, and eventually 
+              break into becoming my own teacher, researching new technologies and answering 
+              not just my own questions, but those of the scientific community and the greater world.
+
+            <br/><br/>
+              My passion for Computer Science has
+              only grown as I have deepened my understanding, and my current focus centers around Domain Specific Accelerators
+              and their usage in Machine Learning Applications
             </p>
           </div>
           <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
             <img
-              src={clogo}
-              alt={"C logo"}
+              src={compArch}
+              alt={"Computer Architecture"}
               style={{ width: "175px", height: "200px" }}
             />
           </div>
@@ -180,12 +176,10 @@ function WorkExperience(props) {
               ways to improve my skills and expand my understanding of the
               field.
               <br />
-              <br />I am particularly interested in data science, including
-              working with databases, artificial intelligence, and neural
-              networks. Additionally, I am excited about the opportunities to
-              continue learning about full-stack web development. My passion for
-              computer science has not changed, but rather has grown along with
-              my expanding knowledge and experience in the field.
+              <br />I am particularly interested in Domain Specific Architectures,
+              artificial intelligence, and neural networks. 
+              Additionally, I am excited about the opportunities to
+              continue learning about full-stack web development.
             </p>
           </div>
           <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>

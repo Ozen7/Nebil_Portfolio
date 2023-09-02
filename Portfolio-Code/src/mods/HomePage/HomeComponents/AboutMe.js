@@ -17,6 +17,8 @@ function AboutMe(props) {
           flexDirection: "row",
           paddingTop: "50px",
           paddingBottom: "50px",
+          paddingLeft: "50px",
+          paddingRight: "50px",
         }}
       >
         <div
@@ -33,10 +35,7 @@ function AboutMe(props) {
             As a computer science undergraduate, I am constantly amazed by the
             endless possibilities that this field offers. From developing
             cutting-edge technology to solving complex problems, there is no
-            shortage of interesting and challenging work to be done. I am
-            particularly interested in machine learning as well as IoT and edge
-            devices, with a secondary interest in data science and
-            visualization.
+            shortage of interesting and challenging work to be done, and no shortage of learning either.
           </p>
           <p>
             In addition to my academic studies, I have been actively seeking
