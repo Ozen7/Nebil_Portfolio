@@ -6,6 +6,8 @@ import "./ProjectsFolder/Projects.css";
 import IndividualProjects from "./ProjectsFolder/IndividualProjects";
 import portfolio1 from "../images/portfolio1.png";
 import mnist from "../images/mnist.png"
+import api from "../images/api.png"
+
 
 
 function PersonalProjects(props) {
@@ -76,7 +78,8 @@ function PersonalProjects(props) {
                 setSetting("proj3");
                 setMenu(false);
               }}
-            ></div>
+            >              <img src={api} style={{borderRadius:"10%", width:"12.5vw"}}/>
+            </div>
             <div
               data-aos="slide-up"
               className="menu"
