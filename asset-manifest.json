@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/Nebil_Portfolio/static/css/main.e8139666.css",
-    "main.js": "/Nebil_Portfolio/static/js/main.ffff8820.js",
+    "main.js": "/Nebil_Portfolio/static/js/main.42cbfd17.js",
     "static/js/787.28cb0dcd.chunk.js": "/Nebil_Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/api.png": "/Nebil_Portfolio/static/media/api.fc0be70a956c86c07903.png",
     "static/media/personalSelfie.jpg": "/Nebil_Portfolio/static/media/personalSelfie.c7a4772fb29c0d89e17c.jpg",
     "static/media/image.png": "/Nebil_Portfolio/static/media/image.bfab5636bb23583909b6.png",
-    "static/media/Nebil_resume.pdf": "/Nebil_Portfolio/static/media/Nebil_resume.e1ceea07464366240c9c.pdf",
+    "static/media/Nebil_resume.pdf": "/Nebil_Portfolio/static/media/Nebil_resume.7c9b46b8bab06c6a1a64.pdf",
     "static/media/CompArch.jpg": "/Nebil_Portfolio/static/media/CompArch.bf04fdeafeffba9f4c84.jpg",
     "static/media/M_logo.png": "/Nebil_Portfolio/static/media/M_logo.e2687b6746e4f8d313ce.png",
     "static/media/Nebil_CV.pdf": "/Nebil_Portfolio/static/media/Nebil_CV.49d77b8eaf4e3e908b2c.pdf",
@@ -20,11 +20,11 @@
     "index.html": "/Nebil_Portfolio/index.html",
     "static/media/download (9).jfif": "/Nebil_Portfolio/static/media/download (9).fedc61440e80b465aac5.jfif",
     "main.e8139666.css.map": "/Nebil_Portfolio/static/css/main.e8139666.css.map",
-    "main.ffff8820.js.map": "/Nebil_Portfolio/static/js/main.ffff8820.js.map",
+    "main.42cbfd17.js.map": "/Nebil_Portfolio/static/js/main.42cbfd17.js.map",
     "787.28cb0dcd.chunk.js.map": "/Nebil_Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8139666.css",
-    "static/js/main.ffff8820.js"
+    "static/js/main.42cbfd17.js"
   ]
 }
