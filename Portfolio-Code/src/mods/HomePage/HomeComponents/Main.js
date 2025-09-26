@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 function Main(props) {
   const [showPleased,setShowPleased] = React.useState(false);
   return (
-    <a href="#workexperience" style={{ textDecoration: "none" }}>
+    <a href="#aboutme" style={{ textDecoration: "none" }}>
       <div
         className="contentsDiv"
         style={{
