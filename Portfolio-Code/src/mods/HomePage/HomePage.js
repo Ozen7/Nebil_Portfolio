@@ -11,22 +11,36 @@ function HomePage(props) {
   return (
     <>
       <Main />
-      <div id="workexperience"/>
+
+
+      <div
+        id="aboutme"
+        style={{ backgroundColor: "#222831", height: "65px" }}
+      />
       <NavBar />
       
-      <WorkExperience />
+      <AboutMe />
+
 
       <div
         id="personalprojects"
         style={{ backgroundColor: "#222831", height: "65px" }}
       />
       <PersonalProjects />
+      
+      <div id="workexperience"/>
 
-      <div
-        id="aboutme"
-        style={{ backgroundColor: "#222831", height: "65px" }}
-      />
-      <AboutMe />
+      <WorkExperience />
+
+
+
+
+
+      <div style={{backgroundColor: "#222831", height: "60px"}}>
+
+      </div>
+
+
     </>
   );
 }

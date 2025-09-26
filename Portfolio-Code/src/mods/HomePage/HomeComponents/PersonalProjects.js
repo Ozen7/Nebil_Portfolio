@@ -7,6 +7,7 @@ import IndividualProjects from "./ProjectsFolder/IndividualProjects";
 import portfolio1 from "../images/portfolio1.png";
 import mnist from "../images/mnist.png"
 import api from "../images/api.png"
+import LaSuperba from "../images/AccessOrchestrateMerge.gif" 
 
 
 
@@ -24,11 +25,12 @@ function PersonalProjects(props) {
   return (
     <>
       <div className="headerDiv">
-        <h3>Projects</h3>
+        <h3>Research & Personal Projects</h3>
       </div>
       <div
         style={{
           backgroundColor: "#222831",
+          paddingBottom:"7.5vh"
         }}
       >
         <CSSTransition
@@ -58,13 +60,23 @@ function PersonalProjects(props) {
                 setMenu(false);
               }}
             >
-              <img src={portfolio1} style={{borderRadius:"10%", width:"12.5vw"}}/>
+              <img src={LaSuperba} style={{borderRadius:"10%", width:"12.5vw"}}/>
             </div>
             <div
               data-aos="slide-up"
               className="menu"
               onClick={() => {
                 setSetting("proj2");
+                setMenu(false);
+              }}
+            >
+              <img src={portfolio1} style={{borderRadius:"10%", width:"12.5vw"}}/>
+            </div>
+            <div
+              data-aos="slide-up"
+              className="menu"
+              onClick={() => {
+                setSetting("proj3");
                 setMenu(false);
               }}
             >
@@ -75,19 +87,12 @@ function PersonalProjects(props) {
               data-aos="slide-up"
               className="menu"
               onClick={() => {
-                setSetting("proj3");
-                setMenu(false);
-              }}
-            >              <img src={api} style={{borderRadius:"10%", width:"12.5vw"}}/>
-            </div>
-            <div
-              data-aos="slide-up"
-              className="menu"
-              onClick={() => {
                 setSetting("proj4");
                 setMenu(false);
               }}
-            ></div>
+            >  
+              <img src={api} style={{borderRadius:"10%", width:"12.5vw"}}/>
+            </div>
             <div
               data-aos="slide-up"
               className="menu"

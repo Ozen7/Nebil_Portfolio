@@ -27,6 +27,9 @@ function WorkExperience(props) {
           alignItems: "center",
         }}
       >
+        <p>
+          Note: This section is out of date, will update soon
+        </p>
         <p style={{ fontSize: "30px", color: "#00ADB5" , fontFamily:'Roboto Slab'}} data-aos="slide-up">
           Prior Work Experience
         </p>

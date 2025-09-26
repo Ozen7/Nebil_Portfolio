@@ -1,7 +1,7 @@
 import React from "react";
 import "../HomePage.css";
 import selfie from "../images/image.png";
-import resume from "../Resume/Nebil_resume.pdf";
+import resume from "../Resume/Nebil_Resume.pdf";
 import CV from "../Resume/Nebil_CV.pdf";
 
 function AboutMe(props) {
@@ -23,7 +23,7 @@ function AboutMe(props) {
       >
         <div
           style={{
-            flex: 3,
+            flex: 4,
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -32,17 +32,21 @@ function AboutMe(props) {
           }}
         >
           <p>
-            As a computer science undergraduate, I am constantly amazed by the
-            endless possibilities that this field offers. From developing
-            cutting-edge technology to solving complex problems, there is no
-            shortage of interesting and challenging work to be done, and no shortage of learning either.
+            Hello! My name is Nebil Ozer (as you saw above). I am a Turkish-American computer science PhD candidate 
+            at the University of Virginia. I'm broadly interested in researching anything Computer Architecture related, and have a specific interest
+            in Domain Specific Acceleration, System-on-Chip Scheduling, and Processing-in-Memory protocols. I haven't fully settled
+            into a dissertation topic yet, so I'm looking forward to broadening my horizons in the upcoming year or two.
           </p>
           <p>
-            In addition to my academic studies, I have been actively seeking
-            opportunities to gain hands-on experience and build my skills. I
-            have taught myself many of the foundational aspects of machine
-            learning and data science, as well as worked in the industry on
-            various occasions.
+            In addition to my academic studies and research, I have been actively seeking
+            opportunities to gain hands-on experience and build my research skills in the industry.
+            My research is my passion, and I want to solve problems that help make the world a better place. 
+            The reach and concrete solutions that industry research offers is the perfect place to do so.
+          </p>
+          <p>
+            Beyond my work, I love reading anything I can get my hands on, and am an avid gamer. 
+            I also enjoy cooking and going for long walks when it's cold outside, both of which 
+            (admittedly) help me clear my mind when I'm stuck on a problem.
           </p>
         </div>
 
@@ -68,7 +72,7 @@ function AboutMe(props) {
         <div
           style={{
             flexDirection: "column",
-            flex: "3",
+            flex: "2",
           }}
         >
           <div
@@ -179,7 +183,7 @@ function AboutMe(props) {
                 </svg>
 
               </a>
-              <a href={CV}>
+              {/*<a href={CV}>*/}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="35"
@@ -191,7 +195,7 @@ function AboutMe(props) {
                   <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                   <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z" />
                 </svg>
-              </a>
+              {/*</a>*/}
               <a href="https://youtu.be/aRr_rO2Robg?t=1103">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
